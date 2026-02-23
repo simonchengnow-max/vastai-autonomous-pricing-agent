@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-02-23T03:57:12.375180",
+  "market_summary": "Vast.ai market analysis covers 64 active GPU offers across 22 GPU types. Our ML pricing model recommends 10 price decreases to improve competitiveness, 10 increases to capture demand, and 2 holds for optimal positioning. Average market price is $1.51/hr with opportunities in H100 NVL, RTX 5060 Ti, RTX 4070S Ti segments.",
+  "explained_recommendations": [
+    {
+      "gpu_type": "RTX PRO 6000 S",
+      "action": "decrease",
+      "current_price": 2.4667,
+      "recommended_price": 0.9931,
+      "confidence": 0.75,
+      "llm_explanation": "The RTX PRO 6000 S is currently priced 148.4% above our ML model's prediction of $0.99/hr. Reducing from the market median of $2.47/hr will improve competitiveness and increase rental probability in a market with 8 competing offers."
+    },
+    {
+      "gpu_type": "H200",
+      "action": "decrease",
+      "current_price": 4.2371,
+      "recommended_price": 1.705,
+      "confidence": 0.75,
+      "llm_explanation": "The H200 is currently priced 148.5% above our ML model's prediction of $1.71/hr. Reducing from the market median of $4.24/hr will improve competitiveness and increase rental probability in a market with 6 competing offers."
+    },
+    {
+      "gpu_type": "RTX 5090",
+      "action": "decrease",
+      "current_price": 1.12,
+      "recommended_price": 0.9182,
+      "confidence": 0.75,
+      "llm_explanation": "The RTX 5090 is currently priced 22.0% above our ML model's prediction of $0.92/hr. Reducing from the market median of $1.12/hr will improve competitiveness and increase rental probability in a market with 5 competing offers."
+    },
+    {
+      "gpu_type": "B200",
+      "action": "decrease",
+      "current_price": 9.7778,
+      "recommended_price": 2.6247,
+      "confidence": 0.75,
+      "llm_explanation": "The B200 is currently priced 272.5% above our ML model's prediction of $2.62/hr. Reducing from the market median of $9.78/hr will improve competitiveness and increase rental probability in a market with 5 competing offers."
+    },
+    {
+      "gpu_type": "RTX PRO 6000 WS",
+      "action": "increase",
+      "current_price": 0.8533,
+      "recommended_price": 1.4165,
+      "confidence": 0.75,
+      "llm_explanation": "The RTX PRO 6000 WS shows strong demand with our ML model recommending $1.42/hr, which is 39.8% above the current market median of $0.85/hr. This price increase captures additional revenue while maintaining competitive positioning."
+    }
+  ]
+}

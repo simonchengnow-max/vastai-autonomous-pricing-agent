@@ -1,0 +1,660 @@
+{
+  "RTX PRO 6000 S": [
+    {
+      "timestamp": "2026-02-23T04:05:06.660823Z",
+      "decision_id": "4687dc81a98ec40d",
+      "gpu_type": "RTX PRO 6000 S",
+      "action": "decrease",
+      "current_price": 2.4667,
+      "recommended_price": 0.9931,
+      "change_percentage": -59.73973324684801,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_decrease_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.660785",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "H200": [
+    {
+      "timestamp": "2026-02-23T04:05:06.660890Z",
+      "decision_id": "e8909972f376e3aa",
+      "gpu_type": "H200",
+      "action": "decrease",
+      "current_price": 4.2371,
+      "recommended_price": 1.705,
+      "change_percentage": -59.76021335347289,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_decrease_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.660882",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5090": [
+    {
+      "timestamp": "2026-02-23T04:05:06.660938Z",
+      "decision_id": "ea6964955647afec",
+      "gpu_type": "RTX 5090",
+      "action": "decrease",
+      "current_price": 1.12,
+      "recommended_price": 0.9182,
+      "change_percentage": -18.01785714285715,
+      "confidence": 0.75,
+      "risk_level": "medium",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.660932",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "B200": [
+    {
+      "timestamp": "2026-02-23T04:05:06.660958Z",
+      "decision_id": "b65095d4ed674d97",
+      "gpu_type": "B200",
+      "action": "decrease",
+      "current_price": 9.7778,
+      "recommended_price": 2.6247,
+      "change_percentage": -73.15653828059482,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_decrease_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.660953",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX PRO 6000 WS": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661003Z",
+      "decision_id": "2f5a693a6cbb644a",
+      "gpu_type": "RTX PRO 6000 WS",
+      "action": "increase",
+      "current_price": 0.8533,
+      "recommended_price": 1.4165,
+      "change_percentage": 66.00257822571196,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.660997",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5070 Ti": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661044Z",
+      "decision_id": "fad61ee29d055dfc",
+      "gpu_type": "RTX 5070 Ti",
+      "action": "increase",
+      "current_price": 0.2133,
+      "recommended_price": 0.3819,
+      "change_percentage": 79.04360056258793,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "market_sample_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661039",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "H100 NVL": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661085Z",
+      "decision_id": "26df40247bc48e2e",
+      "gpu_type": "H100 NVL",
+      "action": "decrease",
+      "current_price": 3.8667,
+      "recommended_price": 1.5618,
+      "change_percentage": -59.60896888819924,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_decrease_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661080",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "H200 NVL": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661122Z",
+      "decision_id": "0a5005c2a138a521",
+      "gpu_type": "H200 NVL",
+      "action": "decrease",
+      "current_price": 2.0667,
+      "recommended_price": 1.6378,
+      "change_percentage": -20.7528910824019,
+      "confidence": 0.75,
+      "risk_level": "medium",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661117",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 4070S Ti": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661138Z",
+      "decision_id": "c0546babfa20a390",
+      "gpu_type": "RTX 4070S Ti",
+      "action": "decrease",
+      "current_price": 0.17,
+      "recommended_price": 0.1402,
+      "change_percentage": -17.529411764705895,
+      "confidence": 0.75,
+      "risk_level": "medium",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661133",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5060 Ti": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661153Z",
+      "decision_id": "6057fab2c7569b47",
+      "gpu_type": "RTX 5060 Ti",
+      "action": "increase",
+      "current_price": 0.0707,
+      "recommended_price": 0.1428,
+      "change_percentage": 101.980198019802,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661149",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5070": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661191Z",
+      "decision_id": "964c3fb0ae00d7a1",
+      "gpu_type": "RTX 5070",
+      "action": "increase",
+      "current_price": 0.1533,
+      "recommended_price": 0.5535,
+      "change_percentage": 261.05675146771034,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661186",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "H100 SXM": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661227Z",
+      "decision_id": "765347cab6a80949",
+      "gpu_type": "H100 SXM",
+      "action": "decrease",
+      "current_price": 5.3333,
+      "recommended_price": 1.3777,
+      "change_percentage": -74.16796354977218,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_decrease_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661222",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5880Ada": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661263Z",
+      "decision_id": "ddfb4c6843d77fe7",
+      "gpu_type": "RTX 5880Ada",
+      "action": "increase",
+      "current_price": 0.4333,
+      "recommended_price": 0.797,
+      "change_percentage": 83.93722594045695,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661258",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 4080S": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661298Z",
+      "decision_id": "e7cdffe2c95f2818",
+      "gpu_type": "RTX 4080S",
+      "action": "decrease",
+      "current_price": 0.36,
+      "recommended_price": 0.2446,
+      "change_percentage": -32.05555555555555,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661293",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX PRO 4000": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661334Z",
+      "decision_id": "a176d53061dbcf0d",
+      "gpu_type": "RTX PRO 4000",
+      "action": "increase",
+      "current_price": 0.2,
+      "recommended_price": 0.3352,
+      "change_percentage": 67.6,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "market_sample_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661329",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "L40S": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661369Z",
+      "decision_id": "e987bd7e03179cfc",
+      "gpu_type": "L40S",
+      "action": "decrease",
+      "current_price": 0.7527,
+      "recommended_price": 0.3782,
+      "change_percentage": -49.75421814800053,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661364",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 4070 Ti": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661404Z",
+      "decision_id": "4f6aa712476aa0d6",
+      "gpu_type": "RTX 4070 Ti",
+      "action": "increase",
+      "current_price": 0.08,
+      "recommended_price": 0.1417,
+      "change_percentage": 77.12499999999999,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661399",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 3080 Ti": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661465Z",
+      "decision_id": "62c0cb31cf5e921d",
+      "gpu_type": "RTX 3080 Ti",
+      "action": "increase",
+      "current_price": 0.1,
+      "recommended_price": 0.211,
+      "change_percentage": 110.99999999999999,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661435",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "L40": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661514Z",
+      "decision_id": "8977ed47b4d0e5a2",
+      "gpu_type": "L40",
+      "action": "increase",
+      "current_price": 0.3333,
+      "recommended_price": 0.483,
+      "change_percentage": 44.91449144914492,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661507",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 3090": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661558Z",
+      "decision_id": "48bb3c3b10fba0dc",
+      "gpu_type": "RTX 3090",
+      "action": "increase",
+      "current_price": 0.16,
+      "recommended_price": 0.2462,
+      "change_percentage": 53.87499999999999,
+      "confidence": 0.75,
+      "risk_level": "high",
+      "status": "rejected",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661548",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 5080": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661596Z",
+      "decision_id": "497461ee6db4115c",
+      "gpu_type": "RTX 5080",
+      "action": "hold",
+      "current_price": 0.1867,
+      "recommended_price": 0.1867,
+      "change_percentage": 0.0,
+      "confidence": 0.5,
+      "risk_level": "medium",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661591",
+      "applied": false,
+      "rollback_id": null
+    }
+  ],
+  "RTX 4090": [
+    {
+      "timestamp": "2026-02-23T04:05:06.661611Z",
+      "decision_id": "4a837e40ca836be2",
+      "gpu_type": "RTX 4090",
+      "action": "hold",
+      "current_price": 0.34,
+      "recommended_price": 0.34,
+      "change_percentage": 0.0,
+      "confidence": 0.5,
+      "risk_level": "medium",
+      "status": "validated",
+      "guardrails_passed": [
+        "price_floor_check",
+        "price_ceiling_check",
+        "max_increase_check",
+        "max_decrease_check",
+        "confidence_check",
+        "market_deviation_check",
+        "price_sanity_check"
+      ],
+      "guardrails_failed": [
+        "market_sample_check (medium)"
+      ],
+      "validator": "ML+Governance",
+      "validation_notes": "Automated validation at 2026-02-23T04:05:06.661606",
+      "applied": false,
+      "rollback_id": null
+    }
+  ]
+}

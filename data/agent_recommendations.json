@@ -1,0 +1,380 @@
+{
+  "timestamp": "2026-02-23T03:52:53.906039",
+  "total_recommendations": 22,
+  "recommendations": [
+    {
+      "gpu_type": "RTX PRO 6000 S",
+      "current_market_median": 2.4667,
+      "current_market_mean": 3.25,
+      "ml_predicted_price": 0.9931,
+      "ml_confidence_interval": {
+        "lower": 0.2406,
+        "upper": 1.7456
+      },
+      "recommended_price": 0.9931,
+      "action": "decrease",
+      "reason": "Current price 148.4% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$1.474/hr, increase competitiveness",
+      "market_sample_size": 8,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "H200",
+      "current_market_median": 4.2371,
+      "current_market_mean": 7.007,
+      "ml_predicted_price": 1.705,
+      "ml_confidence_interval": {
+        "lower": 0.8783,
+        "upper": 2.5317
+      },
+      "recommended_price": 1.705,
+      "action": "decrease",
+      "reason": "Current price 148.5% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$2.532/hr, increase competitiveness",
+      "market_sample_size": 6,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5090",
+      "current_market_median": 1.12,
+      "current_market_mean": 1.112,
+      "ml_predicted_price": 0.9182,
+      "ml_confidence_interval": {
+        "lower": -0.2716,
+        "upper": 2.1081
+      },
+      "recommended_price": 0.9182,
+      "action": "decrease",
+      "reason": "Current price 22.0% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$0.202/hr, increase competitiveness",
+      "market_sample_size": 5,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "B200",
+      "current_market_median": 9.7778,
+      "current_market_mean": 11.7791,
+      "ml_predicted_price": 2.6247,
+      "ml_confidence_interval": {
+        "lower": 0.9298,
+        "upper": 4.3196
+      },
+      "recommended_price": 2.6247,
+      "action": "decrease",
+      "reason": "Current price 272.5% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$7.153/hr, increase competitiveness",
+      "market_sample_size": 5,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX PRO 6000 WS",
+      "current_market_median": 0.8533,
+      "current_market_mean": 1.0889,
+      "ml_predicted_price": 1.4165,
+      "ml_confidence_interval": {
+        "lower": 0.3975,
+        "upper": 2.4356
+      },
+      "recommended_price": 1.4165,
+      "action": "increase",
+      "reason": "Current price 39.8% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.563/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 3,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5070 Ti",
+      "current_market_median": 0.2133,
+      "current_market_mean": 0.2516,
+      "ml_predicted_price": 0.3819,
+      "ml_confidence_interval": {
+        "lower": -0.0776,
+        "upper": 0.8414
+      },
+      "recommended_price": 0.3819,
+      "action": "increase",
+      "reason": "Current price 44.1% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.169/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 3,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "H100 NVL",
+      "current_market_median": 3.8667,
+      "current_market_mean": 6.4131,
+      "ml_predicted_price": 1.5618,
+      "ml_confidence_interval": {
+        "lower": 0.6084,
+        "upper": 2.5152
+      },
+      "recommended_price": 1.5618,
+      "action": "decrease",
+      "reason": "Current price 147.6% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$2.305/hr, increase competitiveness",
+      "market_sample_size": 6,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "H200 NVL",
+      "current_market_median": 2.0667,
+      "current_market_mean": 3.0,
+      "ml_predicted_price": 1.6378,
+      "ml_confidence_interval": {
+        "lower": 0.717,
+        "upper": 2.5585
+      },
+      "recommended_price": 1.6378,
+      "action": "decrease",
+      "reason": "Current price 26.2% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$0.429/hr, increase competitiveness",
+      "market_sample_size": 3,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 4070S Ti",
+      "current_market_median": 0.17,
+      "current_market_mean": 0.17,
+      "ml_predicted_price": 0.1402,
+      "ml_confidence_interval": {
+        "lower": -0.0021,
+        "upper": 0.2825
+      },
+      "recommended_price": 0.1402,
+      "action": "decrease",
+      "reason": "Current price 21.3% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$0.030/hr, increase competitiveness",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5060 Ti",
+      "current_market_median": 0.0707,
+      "current_market_mean": 0.0707,
+      "ml_predicted_price": 0.1428,
+      "ml_confidence_interval": {
+        "lower": 0.0171,
+        "upper": 0.2685
+      },
+      "recommended_price": 0.1428,
+      "action": "increase",
+      "reason": "Current price 50.5% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.072/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5070",
+      "current_market_median": 0.1533,
+      "current_market_mean": 0.1533,
+      "ml_predicted_price": 0.5535,
+      "ml_confidence_interval": {
+        "lower": -0.943,
+        "upper": 2.05
+      },
+      "recommended_price": 0.5535,
+      "action": "increase",
+      "reason": "Current price 72.3% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.400/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "H100 SXM",
+      "current_market_median": 5.3333,
+      "current_market_mean": 6.8667,
+      "ml_predicted_price": 1.3777,
+      "ml_confidence_interval": {
+        "lower": 0.4904,
+        "upper": 2.2649
+      },
+      "recommended_price": 1.3777,
+      "action": "decrease",
+      "reason": "Current price 287.1% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$3.956/hr, increase competitiveness",
+      "market_sample_size": 4,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5880Ada",
+      "current_market_median": 0.4333,
+      "current_market_mean": 0.4333,
+      "ml_predicted_price": 0.797,
+      "ml_confidence_interval": {
+        "lower": -0.4106,
+        "upper": 2.0045
+      },
+      "recommended_price": 0.797,
+      "action": "increase",
+      "reason": "Current price 45.6% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.364/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 4080S",
+      "current_market_median": 0.36,
+      "current_market_mean": 0.36,
+      "ml_predicted_price": 0.2446,
+      "ml_confidence_interval": {
+        "lower": -0.1643,
+        "upper": 0.6536
+      },
+      "recommended_price": 0.2446,
+      "action": "decrease",
+      "reason": "Current price 47.2% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$0.115/hr, increase competitiveness",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX PRO 4000",
+      "current_market_median": 0.2,
+      "current_market_mean": 0.2667,
+      "ml_predicted_price": 0.3352,
+      "ml_confidence_interval": {
+        "lower": 0.1324,
+        "upper": 0.5379
+      },
+      "recommended_price": 0.3352,
+      "action": "increase",
+      "reason": "Current price 40.3% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.135/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 3,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "L40S",
+      "current_market_median": 0.7527,
+      "current_market_mean": 0.7527,
+      "ml_predicted_price": 0.3782,
+      "ml_confidence_interval": {
+        "lower": 0.1499,
+        "upper": 0.6066
+      },
+      "recommended_price": 0.3782,
+      "action": "decrease",
+      "reason": "Current price 99.0% above ML prediction",
+      "confidence": 0.75,
+      "estimated_impact": "-$0.374/hr, increase competitiveness",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 4070 Ti",
+      "current_market_median": 0.08,
+      "current_market_mean": 0.08,
+      "ml_predicted_price": 0.1417,
+      "ml_confidence_interval": {
+        "lower": -0.0162,
+        "upper": 0.2995
+      },
+      "recommended_price": 0.1417,
+      "action": "increase",
+      "reason": "Current price 43.5% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.062/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 3080 Ti",
+      "current_market_median": 0.1,
+      "current_market_mean": 0.1,
+      "ml_predicted_price": 0.211,
+      "ml_confidence_interval": {
+        "lower": -0.2682,
+        "upper": 0.6903
+      },
+      "recommended_price": 0.211,
+      "action": "increase",
+      "reason": "Current price 52.6% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.111/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "L40",
+      "current_market_median": 0.3333,
+      "current_market_mean": 0.3333,
+      "ml_predicted_price": 0.483,
+      "ml_confidence_interval": {
+        "lower": 0.1249,
+        "upper": 0.8411
+      },
+      "recommended_price": 0.483,
+      "action": "increase",
+      "reason": "Current price 31.0% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.150/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 3090",
+      "current_market_median": 0.16,
+      "current_market_mean": 0.16,
+      "ml_predicted_price": 0.2462,
+      "ml_confidence_interval": {
+        "lower": -0.1798,
+        "upper": 0.6722
+      },
+      "recommended_price": 0.2462,
+      "action": "increase",
+      "reason": "Current price 35.0% below ML prediction (leaving money on table)",
+      "confidence": 0.75,
+      "estimated_impact": "+$0.086/hr, potential revenue gain but may reduce bookings",
+      "market_sample_size": 1,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 5080",
+      "current_market_median": 0.1867,
+      "current_market_mean": 0.1867,
+      "ml_predicted_price": 0.1815,
+      "ml_confidence_interval": {
+        "lower": 0.0096,
+        "upper": 0.3533
+      },
+      "recommended_price": 0.1867,
+      "action": "hold",
+      "reason": "Market conditions stable, no adjustment needed",
+      "confidence": 0.5,
+      "estimated_impact": "No change, maintain current position",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    },
+    {
+      "gpu_type": "RTX 4090",
+      "current_market_median": 0.34,
+      "current_market_mean": 0.34,
+      "ml_predicted_price": 0.3062,
+      "ml_confidence_interval": {
+        "lower": -0.209,
+        "upper": 0.8214
+      },
+      "recommended_price": 0.34,
+      "action": "hold",
+      "reason": "Market conditions stable, no adjustment needed",
+      "confidence": 0.5,
+      "estimated_impact": "No change, maintain current position",
+      "market_sample_size": 2,
+      "timestamp": "2026-02-23T03:52:52.989183"
+    }
+  ]
+}

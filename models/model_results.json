@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-02-23T03:49:12.713996",
+  "best_model": "Random Forest",
+  "model_performance": {
+    "Random Forest": {
+      "train_rmse": 1.1195443125034013,
+      "test_rmse": 0.48377589120314923,
+      "train_mae": 0.4216573758396425,
+      "test_mae": 0.2664332020857421,
+      "train_r2": 0.9268510608975378,
+      "test_r2": 0.9527982847461886
+    },
+    "Gradient Boosting": {
+      "train_rmse": 0.00020646658732451374,
+      "test_rmse": 0.9402829053744914,
+      "train_mae": 0.00017300342688065433,
+      "test_mae": 0.41619341974598467,
+      "train_r2": 0.9999999975121453,
+      "test_r2": 0.8216855992108344
+    },
+    "Linear Regression": {
+      "train_rmse": 0.6493372813887572,
+      "test_rmse": 1.3138755527290509,
+      "train_mae": 0.5170607724417582,
+      "test_mae": 0.8620273085966279,
+      "train_r2": 0.9753925771236822,
+      "test_r2": 0.6518408599789988
+    }
+  },
+  "feature_importance": {
+    "gpu_ram": 0.003628986918024566,
+    "cpu_ram": 0.14840855334705688,
+    "num_gpus": 0.009735563627508464,
+    "reliability2": 0.0033320865038312976,
+    "inet_up": 0.008901405800452662,
+    "inet_down": 0.0007612994172888152,
+    "disk_space": 0.01100590223585125,
+    "compute_cap": 0.00023199826670820405,
+    "cpu_cores_effective": 0.004447085260207565,
+    "gpu_mem_bw": 0.0034317073024524324,
+    "dlperf": 0.8006108004060899,
+    "gpu_name_encoded": 0.005504610914528044
+  },
+  "sample_predictions": [
+    {
+      "config": "RTX 5090 - Single GPU",
+      "recommended_price": 0.6211527777777779,
+      "confidence_interval": {
+        "lower": 0.4217111111111111,
+        "upper": 0.899288888888889
+      },
+      "market_position": "fair"
+    },
+    {
+      "config": "H100 SXM - 8 GPUs",
+      "recommended_price": 1.05590235270022,
+      "confidence_interval": {
+        "lower": 0.4239428571428572,
+        "upper": 2.0324720430107526
+      },
+      "market_position": "fair"
+    }
+  ],
+  "training_data": {
+    "total_samples": 63,
+    "train_samples": 50,
+    "test_samples": 13,
+    "features": [
+      "gpu_ram",
+      "cpu_ram",
+      "num_gpus",
+      "reliability2",
+      "inet_up",
+      "inet_down",
+      "disk_space",
+      "compute_cap",
+      "cpu_cores_effective",
+      "gpu_mem_bw",
+      "dlperf",
+      "gpu_name_encoded"
+    ]
+  }
+}

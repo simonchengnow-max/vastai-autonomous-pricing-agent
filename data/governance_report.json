@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-02-23T04:05:06.664714Z",
+  "total_decisions": 22,
+  "status_breakdown": {
+    "rejected": 14,
+    "validated": 8
+  },
+  "risk_breakdown": {
+    "high": 17,
+    "medium": 5
+  },
+  "action_breakdown": {
+    "decrease": 10,
+    "increase": 10,
+    "hold": 2
+  },
+  "recent_high_risk_decisions": [
+    {
+      "decision_id": "964c3fb0ae00d7a1",
+      "gpu_type": "RTX 5070",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ]
+    },
+    {
+      "decision_id": "765347cab6a80949",
+      "gpu_type": "H100 SXM",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_decrease_check (high)"
+      ]
+    },
+    {
+      "decision_id": "ddfb4c6843d77fe7",
+      "gpu_type": "RTX 5880Ada",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ]
+    },
+    {
+      "decision_id": "e7cdffe2c95f2818",
+      "gpu_type": "RTX 4080S",
+      "risk_level": "high",
+      "status": "validated",
+      "failed_guardrails": [
+        "market_sample_check (medium)"
+      ]
+    },
+    {
+      "decision_id": "a176d53061dbcf0d",
+      "gpu_type": "RTX PRO 4000",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)"
+      ]
+    },
+    {
+      "decision_id": "e987bd7e03179cfc",
+      "gpu_type": "L40S",
+      "risk_level": "high",
+      "status": "validated",
+      "failed_guardrails": [
+        "market_sample_check (medium)"
+      ]
+    },
+    {
+      "decision_id": "4f6aa712476aa0d6",
+      "gpu_type": "RTX 4070 Ti",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ]
+    },
+    {
+      "decision_id": "62c0cb31cf5e921d",
+      "gpu_type": "RTX 3080 Ti",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)",
+        "market_deviation_check (high)"
+      ]
+    },
+    {
+      "decision_id": "8977ed47b4d0e5a2",
+      "gpu_type": "L40",
+      "risk_level": "high",
+      "status": "validated",
+      "failed_guardrails": [
+        "market_sample_check (medium)"
+      ]
+    },
+    {
+      "decision_id": "48bb3c3b10fba0dc",
+      "gpu_type": "RTX 3090",
+      "risk_level": "high",
+      "status": "rejected",
+      "failed_guardrails": [
+        "max_increase_check (high)",
+        "market_sample_check (medium)"
+      ]
+    }
+  ],
+  "guardrail_violations": {
+    "max_decrease_check (high)": 5,
+    "max_increase_check (high)": 9,
+    "market_deviation_check (high)": 6,
+    "market_sample_check (medium)": 12
+  },
+  "applied_decisions": 0,
+  "rollback_count": 0,
+  "avg_confidence": 0.7272727272727273
+}
